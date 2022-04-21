@@ -1,0 +1,10 @@
+Enter 10 Bit Key : 0010010111
+Keys Generated :
+Key 1 : 00101111
+Key 2 : 11101010
+Enter 8 Bit Plain Text : 10100101
+
+Encrypted Text : 00110110
+
+Decryption : 
+Decrypted Text : 10100101
