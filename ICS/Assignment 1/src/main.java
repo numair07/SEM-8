@@ -20,6 +20,11 @@ public class main {
             System.out.println("Invalid Text");
             return;
         }
-        System.out.println("Encrypted Text : " + simplifiedDES.encrypt(Text));
+
+        String cipherText = simplifiedDES.encrypt(Text);
+        System.out.println("Encrypted Text : " + cipherText);
+
+        System.out.println("\nDecryption : ");
+        System.out.println("Decrypted Text : " + simplifiedDES.decrypt(cipherText));
     }
 }

@@ -133,6 +133,14 @@ public class SDES {
         return InverseInitialPermutation(Text);
     }
 
+    public String decrypt(String plainText) {
+        String Text = InitialPermutation(plainText);
+        Text = FK(Text, this.Key2);
+        String swapText = Text.substring(Text.length()/2) + Text.substring(0, Text.length()/2);
+        Text = FK(swapText, this.Key1);
+        return InverseInitialPermutation(Text);
+    }
+
     public String getKey1() {
         return Key1;
     }
