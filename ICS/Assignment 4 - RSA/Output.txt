@@ -1,0 +1,18 @@
+Server Program :
+    Waiting for connection on port : 6969
+    Accepted connection from : /127.0.0.1:60300
+    PUBLIC KEY OF CLIENT {7, 77}
+    Enter Plain Text (Numeric) : 9
+    Encrypting...
+    Encrypted Data : 37.0
+
+Client Program :
+    Enter two prime numbers :
+    7
+    11
+    N = 77
+    PUBLIC KEY : {7, 77}
+    PRIVATE KEY : {43, 77}
+    Encrypted Text : 37.0
+    Decrypting...
+    9.0
