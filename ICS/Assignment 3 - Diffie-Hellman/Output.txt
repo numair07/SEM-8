@@ -1,0 +1,16 @@
+Server :
+    Enter the values of P and Q :
+    23
+    9
+    Waiting for connection on port : 6969
+    Accepted connection from : /127.0.0.1:60272
+    Enter Private Key : 4
+    SHARED KEY : 6
+    RECEIVED SHARED KEY : 16
+    SECRET KEY : 9
+
+Client :
+    ENTER PRIVATE KEY : 3
+    SHARED KEY : 16
+    RECEIVED SHARED KEY : 6
+    SECRET KEY GENERATED : 9
